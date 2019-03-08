@@ -2,7 +2,7 @@ package chapter1arraysstrings
 
 import "testing"
 
-var tests = []struct {
+var tests_1_1 = []struct {
 	input    string
 	expected bool
 }{
@@ -11,8 +11,7 @@ var tests = []struct {
 }
 
 func TestIsUnique(t *testing.T) {
-
-	for _, tt := range tests {
+	for _, tt := range tests_1_1 {
 		t.Run(tt.input, func(t *testing.T) {
 			res := IsUnique(tt.input)
 			if tt.expected != res {

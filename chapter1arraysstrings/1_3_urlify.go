@@ -1,6 +1,6 @@
 package chapter1arraysstrings
 
-// URLify returns a rune slice with all spaces replaced with %20
+// URLify mutates a rune slice with all spaces replaced with %20
 //
 // Time Complexity: O(n)
 // Space Complexity: O(1)
